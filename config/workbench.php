@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'name' => '',
+	'name' => getenv('WORKBENCH_NAME'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -26,6 +26,6 @@ return [
 	|
 	*/
 
-	'email' => '',
+	'email' => getenv('WORKBENCH_EMAIL'),
 
 ];
