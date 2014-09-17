@@ -129,6 +129,10 @@ return [
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 
+		'Kyaris\Modules\ModulesServiceProvider',
+
+		'Kyaris\Platform\PlatformServiceProvider'
+
 	],
 
 	/*
@@ -186,6 +190,8 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+
+		'Modules' => 'Kyaris\Modules\Facades\ModulesFacade'
 
 	],
 
