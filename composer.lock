@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6021bbe7bd4d73b8117fed74b0d797f8",
+    "hash": "5135f69164ef842c38411193052a45ef",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -244,6 +244,119 @@
                 "tokenizer"
             ],
             "time": "2013-06-14 07:20:08"
+        },
+        {
+            "name": "kyaris/http",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:kyaris/http.git",
+                "reference": "f29bd52ecebb7cf19c8c85e11754d9c22e4d377b"
+            },
+            "require": {
+                "illuminate/support": "5.0.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Kyaris\\Http": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Daniel Berry",
+                    "email": "danielberrytn@gmail.com"
+                }
+            ],
+            "time": "2014-09-17 15:41:21"
+        },
+        {
+            "name": "kyaris/modules",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:kyaris/modules.git",
+                "reference": "9f446a795e61dfaccfc410b4459a35a6d6be2e8e"
+            },
+            "require": {
+                "illuminate/support": "5.0.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Kyaris\\Modules": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Daniel Berry",
+                    "email": "danielberrytn@gmail.com"
+                }
+            ],
+            "time": "2014-09-17 15:04:14"
+        },
+        {
+            "name": "kyaris/platform",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:kyaris/platform.git",
+                "reference": "638209f7e292bc71c601e615f71eefaee8ada7ae"
+            },
+            "require": {
+                "illuminate/support": "5.0.*",
+                "kyaris/http": "~1.0",
+                "kyaris/modules": "~1.0",
+                "kyaris/support": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kyaris\\Platform\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Kyaris, LLC",
+                    "email": "devhappy@kyaris.com"
+                },
+                {
+                    "name": "Daniel Berry",
+                    "email": "danielberrytn@gmail.com",
+                    "role": "Creator & Lead Developer"
+                }
+            ],
+            "description": "Package that ties the Synergy Platform together.",
+            "time": "2014-09-17 19:40:06"
+        },
+        {
+            "name": "kyaris/support",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:kyaris/support.git",
+                "reference": "3a8a69213229dadb37bcf5c752235706798d9e35"
+            },
+            "require": {
+                "illuminate/support": "5.0.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Kyaris\\Support": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Daniel Berry",
+                    "email": "danielberrytn@gmail.com"
+                }
+            ],
+            "time": "2014-09-17 16:00:46"
         },
         {
             "name": "laravel/framework",
