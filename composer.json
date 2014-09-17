@@ -4,6 +4,12 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.kyaris.com"
+        }
+    ],
 	"require": {
 		"laravel/framework": "~5.0"
 	},
